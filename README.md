@@ -35,6 +35,23 @@ Clonez le dépôt, puis ouvrez `index.html` dans un navigateur. Vous pouvez auss
      ```
 
    - Dans le bloc `<style>` du SVG, ajoutez une règle pour la classe du pays afin de lui donner une couleur et un curseur cliquable. Ajoutez aussi un style `:hover` et `:focus` pour que le changement soit visible au survol et au clavier. Par exemple, utilisez `.jp`, `.jp:hover` et `.jp:focus` pour le Japon.
-6. Ouvrez `index.html` et vérifiez le lien de la liste et le clic sur la carte. Puis poussez votre branche et ouvrez une pull request en mentionnant l’issue.
+6. Ouvrez `index.html` et vérifiez le lien de la liste et le clic sur la carte.
+7. Avant de publier vos changements, récupérez les dernières modifications et fusionnez `origin/main` dans votre branche :
+
+   ```sh
+   git fetch --all
+   git merge origin/main
+   ```
+
+   Si des conflits apparaissent, résolvez-les puis vérifiez à nouveau le site.
+8. Ajoutez vos fichiers, créez un commit, puis poussez votre branche (remplacez `ajout-japon` par le nom de votre branche) :
+
+   ```sh
+   git add countries/japan.html index.html assets/world-map.svg
+   git commit -m "Ajoute la fiche du Japon"
+   git push -u origin ajout-japon
+   ```
+
+   Enfin, ouvrez une pull request vers `main` en mentionnant l’issue. Ne poussez pas directement sur `main`.
 
 Si le tracé du pays n’existe pas dans le SVG, signalez-le dans l’issue avant de commencer.
