@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ed">
+  <title>Our World Atlas</title>
+  <meta name="description" content="Explore our classroom atlas. Click a country to discover its story.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="atlas-home">
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">◎</span><span>our world <span class="brand-light">atlas</span></span></a>
+  </header>
+
+  <main class="atlas-main">
+    <h1>Explore the world</h1>
+    <p>Click a country on the map to discover its story.</p>
+    <div class="atlas-map" role="region" aria-label="Interactive world map">
+      <object data="assets/world-map.svg" type="image/svg+xml" title="World map with clickable countries">World map: click a country to explore its page.</object>
+    </div>
+    <section class="country-directory" aria-labelledby="country-directory-title">
+      <h2 id="country-directory-title">Available countries</h2>
+      <ul class="country-list">
+        <li><a href="countries/switzerland.html"><span role="img" aria-label="Swiss flag">🇨🇭</span> Switzerland <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">◎</span><span>our world <span class="brand-light">atlas</span></span></a>
+    <span>A classroom atlas, made with curiosity.</span>
+  </footer>
+</body>
+</html>
