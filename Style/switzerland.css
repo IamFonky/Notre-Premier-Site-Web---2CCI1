@@ -1,0 +1,220 @@
+@import url("common.css");
+
+.country-hero h1 {
+  font: 700 clamp(46px, 6.1vw, 73px)/1.08 var(--font-display);
+  letter-spacing: -4.8px;
+  margin: 23px 0 15px;
+}
+.country-page {
+  min-height: calc(100vh - 147px);
+}
+.breadcrumb {
+  padding: 24px 12.1% 0;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  color: #8c9086;
+  font-size: 10px;
+}
+.breadcrumb a:hover {
+  color: var(--green);
+}
+.country-hero {
+  padding: 54px 12.1% 65px;
+  position: relative;
+  overflow: hidden;
+}
+.country-hero:before {
+  content: "";
+  position: absolute;
+  width: 410px;
+  height: 410px;
+  right: 13%;
+  top: 9px;
+  border: 1px solid #dce0d4;
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 33px #f6f4ed,
+    0 0 0 34px #e2e4d9,
+    0 0 0 70px #f6f4ed,
+    0 0 0 71px #e7e7dd;
+}
+.country-hero-inner {
+  position: relative;
+  max-width: 610px;
+}
+.country-flag {
+  font-size: 34px;
+}
+.country-hero h1 {
+  font-size: 67px;
+  margin: 14px 0 11px;
+}
+.country-hero h1 span {
+  color: var(--green);
+}
+.country-subtitle {
+  font-size: 13px;
+  color: #787e75;
+  margin: 0;
+}
+.country-facts {
+  display: flex;
+  gap: 35px;
+  margin-top: 30px;
+}
+.fact {
+  border-left: 1px solid #dcded3;
+  padding-left: 12px;
+}
+.fact span {
+  display: block;
+  font-size: 8px;
+  letter-spacing: 0.9px;
+  color: #888d83;
+  text-transform: uppercase;
+}
+.fact b {
+  display: block;
+  margin-top: 5px;
+  font: 700 12px var(--font-display);
+}
+.country-content {
+  background: #efeee6;
+  padding: 51px 12.1% 68px;
+}
+.content-heading {
+  margin-bottom: 24px;
+}
+.content-heading h2 {
+  font: 700 27px var(--font-display);
+  letter-spacing: -1px;
+  margin: 9px 0 0;
+}
+.country-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 16px;
+}
+.story-card,
+.quick-facts,
+.did-you-know {
+  padding: 24px;
+  background: #faf9f3;
+  border: 1px solid #e4e3da;
+  border-radius: 6px;
+}
+.story-card .card-eyebrow {
+  font-size: 8px;
+  letter-spacing: 1px;
+  color: #91968a;
+  text-transform: uppercase;
+}
+.story-card h3,
+.quick-facts h3 {
+  font: 700 18px var(--font-display);
+  margin: 12px 0;
+}
+.story-card p {
+  max-width: 550px;
+  font-size: 11px;
+  line-height: 1.85;
+  color: #6f766d;
+  margin: 0;
+}
+.quick-facts h3 {
+  font-size: 15px;
+  margin-top: 0;
+}
+.fact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.fact-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 11px 0;
+  border-top: 1px solid #e9e8df;
+  font-size: 10px;
+}
+.fact-list li span {
+  color: #7f857a;
+}
+.fact-list li b {
+  text-align: right;
+}
+.did-you-know {
+  grid-column: 1/-1;
+  background: #e7ede3;
+  border-color: #e0e6da;
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+}
+.did-icon {
+  font-size: 20px;
+  color: var(--green);
+}
+.did-you-know h3 {
+  margin: 1px 0 6px;
+  font: 700 12px var(--font-display);
+}
+.did-you-know p {
+  margin: 0;
+  font-size: 10px;
+  line-height: 1.7;
+  color: #72796e;
+}
+.back-link {
+  display: inline-flex;
+  gap: 8px;
+  margin-top: 22px;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--green);
+}
+@media (max-width: 760px) {
+  .country-hero {
+    padding: 40px 7% 50px;
+  }
+  .country-hero:before {
+    right: -45%;
+    opacity: 0.55;
+  }
+  .country-hero h1 {
+    font-size: 57px;
+  }
+  .breadcrumb {
+    padding: 20px 7% 0;
+  }
+  .country-content {
+    padding: 43px 6% 55px;
+  }
+  .country-grid {
+    grid-template-columns: 1fr;
+  }
+  .did-you-know {
+    grid-column: auto;
+  }
+  .country-facts {
+    gap: 20px;
+  }
+}
+@media (max-width: 430px) {
+  .country-hero h1 {
+    font-size: 49px;
+  }
+  .fact b {
+    font-size: 10px;
+  }
+}
+.country-image {
+  display: block;
+  width: min(100%, 420px);
+  max-height: 260px;
+  margin: 20px 0;
+  object-fit: cover;
+  border-radius: 8px;
+}
