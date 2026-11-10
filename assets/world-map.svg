@@ -1619,6 +1619,10 @@
 		<path id="path4874"
 			d="m 899.96,1170.13 c 0.981,-1.21 3.125,-0.88 4.46,-1.37 -1.813,-0.46 -3.503,0.15 -5.18,0.79 0.219,0.22 0.46,0.42 0.72,0.58" />
 	</g>
+
+
+
+<a href="/countries/england.html">
 	<g id="gb" class="landxx coastxx gb">
 		<title>United Kingdom</title>
 		<path id="United_Kingdom_Northern_Ireland" class="landxx gb"
@@ -1671,6 +1675,10 @@
 		<path id="path5354"
 			d="m 1302.37,262.78 c 0.62,-0.06 1.16,-0.429 1.51,-0.937 -1.18,-0.655 -1.85,-0.447 -2.95,0.216 0.51,0.173 0.99,0.413 1.44,0.721" />
 	</g>
+</a>
+
+
+
 	<g id="cr" class="landxx coastxx cr">
 		<title>Costa Rica</title>
 		<path id="Costa_Rica_mainland" class="landxx cr"
