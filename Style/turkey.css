@@ -11,6 +11,18 @@ p {
     font-family: 'Trebuchet MS';
 }
 
+.back-arrow {
+    display: inline-block;
+    color: #000;
+    font-size: 2rem;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.back-arrow:hover,
+.back-arrow:focus-visible {
+    color: #333;
+}
 
 .album-container {
             padding: 25px;
@@ -28,7 +40,6 @@ p {
             border-color: blue;
             border-radius: 5px;
         }
-
 
 
 
