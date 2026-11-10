@@ -32,8 +32,12 @@
 .ch {
   fill: #0dcc49 !important;
 }
+.pt {
+  fill: #00c63f !important;
+}
 .frx {
   fill: #2563eb !important;
+}
 .es {
   fill: #f5e04c !important;
 }
