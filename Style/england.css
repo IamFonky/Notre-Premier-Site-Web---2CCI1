@@ -1,0 +1,26 @@
+body {
+    background-color: rgba(252, 192, 192, 0.958)
+}
+
+h1 {
+    color: rgba(202, 24, 57, 0.897);
+    text-align: center;
+}
+
+p#para1{
+    text-align: center;
+    color: rgba(153, 32, 32, 0.816);
+    font-family: 'Trebuchet MS';
+}
+
+p#para2{
+    text-align: center;
+    color: rgba(5, 5, 5, 0.816);
+    font-family: 'Trebuchet MS';
+}
+h2{
+    color: rgba(202, 24, 57, 0.897);
+    text-align: center;
+
+}    
+
