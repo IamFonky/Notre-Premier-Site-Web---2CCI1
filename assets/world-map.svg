@@ -5098,12 +5098,17 @@
 			d="m 1409.36,388.854 c -0.8,-0.08 -1.55,-0.824 -1.15,-1.655 0.58,0.34 1.94,0.768 1.15,1.655" />
 		<circle id="mt_" class="circlexx eu mt" r="6" cy="389.232" cx="1410" />
 	</g>
+
+
+	<a href="/countries/maldives.html" target="_blank">
 	<g id="mv">
 		<title>Maldives, Republic of</title>
 		<path id="mv-" class="landxx coastxx mv"
 			d="m 1845.09,675.359 c 0.1,-0.7 -0.19,-1.573 -1.08,-1.37 0.53,0.28 0.95,0.774 1.08,1.37" />
 		<circle id="mv_" class="circlexx mv" r="6" cy="669.374" cx="1844.22" />
 	</g>
+	</a>
+
 	<g id="ky">
 		<title>Cayman Islands</title>
 		<path id="ky-" class="landxx coastxx ky"
