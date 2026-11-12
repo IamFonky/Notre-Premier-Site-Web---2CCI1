@@ -52,6 +52,11 @@
 .gb {
   fill: #fe4b4b !important;
 }
+.tr {
+  fill: #e30a17;
+  cursor: pointer;
+}
+
 
 /*
  * Circles around small countries and territories

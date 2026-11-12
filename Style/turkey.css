@@ -1,0 +1,46 @@
+body {
+    background-color: hotpink
+}
+
+h1 {
+    color: greenyellow;
+    text-align: center;
+}
+
+p {
+    font-family: 'Trebuchet MS';
+}
+
+.back-arrow {
+    display: inline-block;
+    color: #000;
+    font-size: 2rem;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.back-arrow:hover,
+.back-arrow:focus-visible {
+    color: #333;
+}
+
+.album-container {
+            padding: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: antiquewhite;
+        }
+
+        .album-item {
+            padding: 10px;
+            margin: 10px;
+            background-color: aqua;
+            border-width: 2px;
+            border-color: blue;
+            border-radius: 5px;
+        }
+
+
+
+
