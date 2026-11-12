@@ -14,7 +14,7 @@ a.active * {
 
 a.active:hover *,
 a.active:hover *{
-  fill: #eb08b2 !important;
+  fill: #cfcfcf !important;
   stroke: #202d29 !important;
   stroke-width: 3 !important;
 }
