@@ -17,7 +17,16 @@
     <h1>Explore the world</h1>
     <p>Click a country on the map to discover its story.</p>
     <div class="atlas-map" role="region" aria-label="Interactive world map">
-      <object data="assets/world-map.svg" type="image/svg+xml" title="World map with clickable countries">World map: click a country to explore its page.</object>
+      <div class="map-zoom-controls" role="group" aria-label="Contrôles du zoom">
+        <span class="map-zoom-hint">Cliquez sur un pays pour zoomer, puis à nouveau pour ouvrir sa page.</span>
+        <div class="map-zoom-buttons">
+          <button type="button" data-map-zoom="out" aria-label="Dézoomer">−</button>
+          <output data-map-zoom-level aria-live="polite">100 %</output>
+          <button type="button" data-map-zoom="in" aria-label="Zoomer">+</button>
+          <button type="button" data-map-zoom="reset">Réinitialiser</button>
+        </div>
+      </div>
+      <object data="assets/world-map.svg" type="image/svg+xml" title="World map with clickable countries">World map: click a country to zoom in, then click again to explore its page.</object>
     </div>
     <section class="country-directory" aria-labelledby="country-directory-title">
       <h2 id="country-directory-title">Available countries</h2>
@@ -46,5 +55,6 @@
     <a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">◎</span><span>our world <span class="brand-light">atlas</span></span></a>
     <span>A classroom atlas, made with curiosity.</span>
   </footer>
+  <script src="assets/map-zoom.js" defer></script>
 </body>
 </html>
