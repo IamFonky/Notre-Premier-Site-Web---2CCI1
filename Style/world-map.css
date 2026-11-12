@@ -32,6 +32,9 @@
 .ch {
   fill: #0dcc49 !important;
 }
+.ru {
+  fill: #ff0000 !important;
+}
 .pl {
   fill: #7f5ed9 !important;
 }
@@ -40,6 +43,7 @@
 }
 .sa {
   fill: #186f09 !important;
+}
 .pt {
   fill: #00c63f !important;
 }
@@ -54,7 +58,6 @@
 }
 .tr {
   fill: #e30a17;
-  cursor: pointer;
 }
 
 
