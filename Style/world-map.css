@@ -32,6 +32,8 @@
 .ch {
   fill: #0dcc49 !important;
 }
+.sa {
+  fill: #186f09 !important;
 .pt {
   fill: #00c63f !important;
 }
@@ -41,7 +43,6 @@
 .es {
   fill: #f5e04c !important;
 }
-
 .gb {
   fill: #fe4b4b !important;
 }
