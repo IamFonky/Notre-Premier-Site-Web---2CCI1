@@ -8,15 +8,12 @@
 /*
  * Classe à ajouter à un pays cliquable
  */
-.active {
-  stroke: #fffefa !important;
-  stroke-width: 2 !important;
+a.active * {
   cursor: pointer;
-  transition: fill 0.30s;
 }
 
-.active:hover,
-.active:focus {
+a.active:hover *,
+a.active:hover *{
   fill: #eb08b2 !important;
   stroke: #202d29 !important;
   stroke-width: 3 !important;
