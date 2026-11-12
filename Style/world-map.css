@@ -1,5 +1,5 @@
 /*
- * Below are Cascading Style Sheet (CSS) definitions in use in this file,
+ * Below are Cacading Style Sheet (CSS) definitions in use in this file,
  * which allow easily changing how countries are displayed.
  *
  * The styles are applied in the order in which they are defined (and re-defined) here in the preamble.
@@ -31,6 +31,15 @@
 }
 .ch {
   fill: #0dcc49 !important;
+}
+.hu {
+  fill: #c20dcc !important;
+}
+.ro {
+  fill: #7f7be9 !important;
+}
+.xk {
+  fill: #fc019c !important;
 }
 .al {
   fill: #b41717 !important;
