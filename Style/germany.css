@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(240, 0, 0)
+}
+
+h1 {
+    color: greenyellow;
+    text-align: center;
+}
+
+p {
+    font-family: 'Trebuchet MS';
+}
+ .album-container {
+            padding: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: rgb(255, 225, 0);
+        }
+
+        .album-item {
+            padding: 10px;
+            margin: 10px;
+            background-color: rgb(255, 0, 0);
+            border-width: 2px;
+            border-color: rgb(0, 0, 0);
+            border-radius: 5px;
+        }
