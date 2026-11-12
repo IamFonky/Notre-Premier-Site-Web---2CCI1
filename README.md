@@ -17,7 +17,7 @@ Clonez le dépôt, puis ouvrez `index.html` dans un navigateur. Vous pouvez auss
    git switch -c ajout-japon
    ```
 
-3. Créez vous-même une page HTML pour le pays dans `countries/` (par exemple `countries/japan.html`). Inspirez-vous de la structure simple de `monsiteweb/index.html` : deux ou trois titres, quelques paragraphes, une liste, deux ou trois images et un seul lien de retour vers `index.html`.
+3. Créez vous-même une page HTML pour le pays dans `countries/` (par exemple `countries/japan.html`). Inspirez-vous de la structure simple de `monsiteweb../index.html` : deux ou trois titres, quelques paragraphes, une liste, deux ou trois images et un seul lien de retour vers `index.html`.
 4. Placez les images du pays dans le dossier `Images/` à la racine et créez un fichier CSS dédié dans `Style/` (par exemple `Style/japan.css`). Depuis une page dans `countries/`, utilisez des chemins comme `../Images/japan-1.jpg` et reliez la feuille de style avec `<link rel="stylesheet" href="../Style/japan.css">`.
 5. Chaque page utilise sa propre feuille CSS dans `Style/`. Les styles communs sont dans `Style/common.css`; la page d’accueil utilise `Style/homepage.css` et importe les styles communs.
 6. Dans `index.html`, ajoutez un lien vers la page HTML dans la liste « Available countries », par exemple :
