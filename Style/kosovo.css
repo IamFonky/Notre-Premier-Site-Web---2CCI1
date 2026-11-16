@@ -1,0 +1,12 @@
+body {
+    background-color: lab(71.3% 4.13 -32.82)
+}
+
+h1 {
+    color: rgb(244, 255, 44);
+    text-align: center;
+}
+
+p {
+    font-family: 'Trebuchet MS';
+}

@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(220, 20, 20)
+}
+
+h1 {
+    color: rgb(4, 5, 68);
+    text-align: center;
+}
+
+p {
+    font-family: 'Trebuchet MS';
+    color:antiquewhite
+}
+title {
+    color: rgb(250, 252, 253);
+    text-align: center;
+}
+h2 {
+    color: rgb(250, 252, 253);
+    text-align: center;
+}

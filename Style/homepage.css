@@ -554,8 +554,49 @@
   flex: 1;
   min-height: 300px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.map-zoom-controls {
+  width: 100%;
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.map-zoom-hint {
+  color: var(--muted);
+  font-size: 11px;
+  text-align: left;
+}
+.map-zoom-buttons {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.map-zoom-buttons button {
+  min-width: 34px;
+  min-height: 32px;
+  padding: 5px 9px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: #fffefa;
+  color: var(--ink);
+  font: 600 13px var(--font-body);
+  cursor: pointer;
+}
+.map-zoom-buttons button:hover,
+.map-zoom-buttons button:focus-visible {
+  border-color: var(--green);
+  color: var(--green);
+}
+.map-zoom-buttons output {
+  min-width: 48px;
+  color: var(--muted);
+  font-size: 11px;
 }
 .atlas-map object {
   display: block;
@@ -620,6 +661,14 @@
   .atlas-map object {
     height: 55vh;
     min-height: 280px;
+  }
+  .map-zoom-controls {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 8px;
+  }
+  .map-zoom-buttons {
+    align-self: flex-end;
   }
   .atlas-home .site-footer {
     flex-wrap: wrap;
